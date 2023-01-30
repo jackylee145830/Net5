@@ -1,6 +1,6 @@
 # EF-Core-Transaction
 
-處理DB Roll back
+### 處理DB Roll back
 
 * 透過 DbContext.DataBase.BeginTransaction() 可取得 IDbContextTransaction，可將多次 SaveChanges() 包成一個 Transaction，由程式決定何時 Commit 或 Rollback。
 
